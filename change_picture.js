@@ -1,0 +1,2 @@
+document.getElementById("cloud_btn").addEventListener("click", function(){ document.getElementById("diagram").src = "assets/cloud.png" });
+document.getElementById("onsite_btn").addEventListener("click", function(){ document.getElementById("diagram").src = "assets/onsite.png" });
