@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbuttons{
+    margin-left: 25%
+}
+
+.page-header{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+#writeup{
+    margin-top: 5em;
+}
+.btn-primary{
+    background-color: #0076bd;
+}
+.footer{
+    margin-bottom: 0px;
+    background-color: #0076bd;
+}
+.footerp{
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}

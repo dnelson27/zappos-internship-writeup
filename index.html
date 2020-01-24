@@ -15,13 +15,38 @@
         <div class="page-header" >
             <h1>Davis Nelson's Zappos Summer Internship Write-up</h1>
         </div>
-        <div class="btn-group btn-group-justified">
-            <p id="cloud_btn" class="btn btn-primary">Cloud Diagram</p>
-            <p id="onsite_btn" class="btn btn-primary">Onsite Diagram</p>
-            <a href="#" class="btn btn-primary">Download Cloud PDF</a>
-            <a href="#" class="btn btn-primary">Download Onsite PDF</a>
+
+
+        <div class="btn-group btn-group-large navbuttons">
+            <p id="cloud_btn" class="btn btn-primary">View Cloud Diagram</p>
+            <p id="onsite_btn" class="btn btn-primary">View On-site Diagram</p>
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Write Ups/Diagrams
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu dropdown-menu-right">
+                <li class = "dropdown-header">Cloud</li>
+                <li><a href="assets/cloud_writeup.docx">Word Document</a></li>
+                <li><a href="assets/cloud_writeup.pdf">PDF</a></li>
+                <li class="divider"></li>
+                <li class = "dropdown-header">On-site</li>
+                <li><a href="assets/onsite_writeup.docx">Word Document</a></li>
+                <li><a href="assets/onsite_writeup.pdf">PDF</a></li>
+            </ul>
+
+
+
+
         </div>
-    <img id="diagram" src="assets/cloud.png" alt="Cloud Diagram" class = "img-responsive"> 
+
+
+    <div class="media">
+        <img id="diagram" src="assets/cloud.png" alt="Cloud Diagram" class = "img-responsive" style="visibility: visible;"> 
+        <embed id = "writeup" calss = "embed-responsive" src="assets/cloud_writeup.pdf" type="application/pdf" width="100%" height="800px"/>    
+    </div>
+
+
+    </div>
+    <div class="jumbotron footer">
+          <p class="lead footerp">Please contact me at my email (included in the email sent) with any questions or concerns!</p>
     </div>
 </body>
 <script src="change_picture.js"></script>
