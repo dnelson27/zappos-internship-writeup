@@ -4,6 +4,9 @@ body{
     padding: 0px;
     margin: 0px;
 }
+img{
+    margin-left: 8%;
+}
 .navbuttons{
     margin-left: 25%
 }
@@ -26,4 +29,14 @@ body{
     color: white;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
+}
+.writeup-box{
+    width: 100%;
+    overflow: scroll;
+    height: 300px;
+    background-color:  #f0f0f5;
+}
+#writeup{
+    margin: 2em;
+    color: black;
 }

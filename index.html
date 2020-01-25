@@ -5,22 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/cloud_map.css">
+    <link rel="stylesheet" href="styles/base_styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
     <title>Davis Nelson Internship Write-up</title>
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+        });
+        </script>
 </head>
 <body>
     <div class="container">
-        <div class="page-header" >
-            <h1>Davis Nelson's Zappos Summer Internship Write-up</h1>
+        <!--Header--> 
+        <div class="page-header row" >
+            <h1 data-toggle='popover' data-placement="top" data-content="Content">Davis Nelson's Zappos Summer Internship Write-up</h1>
         </div>
-
-
-        <div class="btn-group btn-group-large navbuttons">
+        <!--Nav--> 
+        <div class="btn-group btn-group-large navbuttons row">
             <p id="cloud_btn" class="btn btn-primary">View Cloud Diagram</p>
             <p id="onsite_btn" class="btn btn-primary">View On-site Diagram</p>
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Write Ups/Diagrams
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Download Write-Ups/Diagrams
             <span class="caret"></span></button>
             <ul class="dropdown-menu dropdown-menu-right">
                 <li class = "dropdown-header">Cloud</li>
@@ -31,20 +36,42 @@
                 <li><a href="assets/onsite_writeup.docx">Word Document</a></li>
                 <li><a href="assets/onsite_writeup.pdf">PDF</a></li>
             </ul>
-
-
-
-
+        </div>        
+        <!--media--> 
+        <div class="row">
+               <img id = "diagram" src="assets/onsite.png" width="1023" height="1018" alt="Error, unable to load image" usemap="#onsite-map">
+               <!--<embed id = "writeup" calss = "embed-responsive" src="" type="application/pdf" width="100%" height="800px"/>-->
         </div>
+        <div class="row">
+            <div class="writeup-box">
+                <p id="writeup"></p>
+            </div>
+        </div>
+         <!--onsite image map-->
+         <map name="onsite-map">
+            <area id="soc_area" coords="27,545,133,625" shape="rect">
+            <area id="workstations_area" coords="26,729,122,798" shape="rect">
+            <area id="email_area"coords="115,880,220,960" shape="rect">
+            <area id="db_group_area"coords="370,894,500,985" shape="rect">
+            <area id="dns_area"coords="577,861,662,943" shape="rect">
+            <area id="reverse_proxy_area"coords="803,767,881,851" shape="rect">
+            <area id="sdn_area"coords="705,601,777,682" shape="rect">
+            <area id="dmz_area"coords="573,329,698,392" shape="rect">
+            <area id="application_area"coords="405,293,518,409" shape="rect">
+            <area id="monitor_area"coords="418,478,502,536" shape="rect">
+            <area id="network_area"coords="359,539,563,667" shape="rect">
+            <area id="wan_area" coords="461,168,25" shape="circle">
+            <area id="internet_area"coords="470,62,54" shape="circle">
+        </map>
+         
+          <!--cloud image map--> 
+          <map name="cloud-map">
 
 
-    <div class="media">
-        <img id="diagram" src="assets/cloud.png" alt="Cloud Diagram" class = "img-responsive" style="visibility: visible;"> 
-        <embed id = "writeup" calss = "embed-responsive" src="assets/cloud_writeup.pdf" type="application/pdf" width="100%" height="800px"/>    
+          </map>
+
     </div>
-
-
-    </div>
+   <!--End Container, start footer--> 
     <div class="jumbotron footer">
           <p class="lead footerp">Please contact me at my email (included in the email sent) with any questions or concerns!</p>
     </div>
