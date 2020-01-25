@@ -20,9 +20,6 @@ const wan_area = document.getElementById("wan_area")
 const internet_area = document.getElementById("internet_area")
 const application_area = document.getElementById("application_area")
 const monitor_area = document.getElementById("monitor_area")
-// Area maps for cloud
-
-
 //onsite messages
 const soc_message = "SOC: This node represents all scanning, logging, and security automation tools implemented in this topology. This includes Splunk indexers, Splunk Phantom nodes, and Qualys scanners (Or the company’s preferred SIEM, SOAR, and Scanning solutions). This node is responsible for rapid response, recovery, and data protection. Assets in the SOC are designed for high-availability, redundancy, and resiliancy."
 const ws_message = "Workstations: This node represents all end-devices. All users and devices are granted minimum access to network resources as are necessary for their role. Devices are configured to be rapidly quarantined if necessary, and sensitive information is backed up in accordance with business goals, company policy, and regulations. Access-layer switches are configured with DHCP snooping, and other necessary security appliances are placed here to prevent MITM attacks. Strong password policies, user training, and heavy monitoring are implemented here. This node is considered one of the most significant attack vectors and is heavily monitored."
@@ -51,19 +48,3 @@ monitor_area.addEventListener("click", function(){  writeup.innerHTML= monitor_m
 network_area.addEventListener("click", function(){  writeup.innerHTML= network_message});
 internet_area.addEventListener("click", function(){  writeup.innerHTML= internet_message});
 wan_area.addEventListener("click", function(){  writeup.innerHTML= wan_message});
-
-
-
-//Image swapping
-cloud_btn.addEventListener("click", function(){ 
-    diagram.src = "assets/cloud.png";
-    diagram.usemap = "#cloud-map";
-    diagram.style.height = "2000";
-    diagram.style.width = "1086";
-});
-onsite_btn.addEventListener("click", function(){ 
-    diagram.src = "assets/onsite.png"; 
-    diagram.usemap = "#onsite-map";
-    diagram.style.height = "1018";
-    diagram.style.width = "1023";
-});
