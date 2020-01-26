@@ -3,6 +3,7 @@
 body{
     padding: 0px;
     margin: 0px;
+
 }
 img{
     margin-left: 8%;
@@ -12,7 +13,7 @@ img{
 }
 
 .page-header{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive, Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 #writeup{
@@ -28,7 +29,7 @@ img{
 .footerp{
     color: white;
     text-align: center;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive, Georgia, 'Times New Roman', Times, serif;
 }
 .writeup-box{
     width: 100%;
@@ -40,8 +41,9 @@ img{
     margin: 2em;
     color: black;
     font-size: 1.2em;
-
     font-family: 'Montserrat', sans-serif, Georgia, 'Times New Roman', Times, serif;
-
-
+}
+.cloud_image{
+    margin-top: 3em;
+    margin-left: 1%;
 }
