@@ -1,11 +1,8 @@
 
 // HTML Elements
-const cloud_btn = document.getElementById("cloud_btn");
-const onsite_btn = document.getElementById("onsite_btn");
 const writeup = document.getElementById("writeup");
 const diagram = document.getElementById("diagram");
 const display = document.getElementById("box_display");
-const pdf_display = document.getElementById("writeup");
 // Area maps for onsite
 const soc_area = document.getElementById("soc_area");
 const workstations_area = document.getElementById("workstations_area");
@@ -16,10 +13,10 @@ const reverse_proxy_area = document.getElementById("reverse_proxy_area");
 const sdn_area = document.getElementById("sdn_area");
 const network_area = document.getElementById("network_area");
 const dmz_area = document.getElementById("dmz_area");
-const wan_area = document.getElementById("wan_area")
-const internet_area = document.getElementById("internet_area")
-const application_area = document.getElementById("application_area")
-const monitor_area = document.getElementById("monitor_area")
+const wan_area = document.getElementById("wan_area");
+const internet_area = document.getElementById("internet_area");
+const application_area = document.getElementById("application_area");
+const monitor_area = document.getElementById("monitor_area");
 //onsite messages
 const soc_message = "SOC: This node represents all scanning, logging, and security automation tools implemented in this topology. This includes Splunk indexers, Splunk Phantom nodes, and Qualys scanners (Or the company’s preferred SIEM, SOAR, and Scanning solutions). This node is responsible for rapid response, recovery, and data protection. Assets in the SOC are designed for high-availability, redundancy, and resiliancy."
 const ws_message = "Workstations: This node represents all end-devices. All users and devices are granted minimum access to network resources as are necessary for their role. Devices are configured to be rapidly quarantined if necessary, and sensitive information is backed up in accordance with business goals, company policy, and regulations. Access-layer switches are configured with DHCP snooping, and other necessary security appliances are placed here to prevent MITM attacks. Strong password policies, user training, and heavy monitoring are implemented here. This node is considered one of the most significant attack vectors and is heavily monitored."
