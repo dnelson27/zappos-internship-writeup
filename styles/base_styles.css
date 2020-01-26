@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body{
     padding: 0px;
     margin: 0px;
@@ -39,4 +39,9 @@ img{
 #writeup{
     margin: 2em;
     color: black;
+    font-size: 1.2em;
+
+    font-family: 'Montserrat', sans-serif, Georgia, 'Times New Roman', Times, serif;
+
+
 }
