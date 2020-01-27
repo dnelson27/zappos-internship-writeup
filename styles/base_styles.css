@@ -7,6 +7,8 @@ body{
 }
 img{
     margin-left: 25%;
+    margin-right: 200px;
+    margin-bottom: 50px;
 }
 .navbuttons{
     margin-left: 18%
@@ -32,10 +34,14 @@ img{
     font-family: 'Bebas Neue', cursive, Georgia, 'Times New Roman', Times, serif;
 }
 .writeup-box{
-    width: 100%;
+    width: 20%;
     overflow: scroll;
-    height: 300px;
+    height: 800px;
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
     background-color:  #f0f0f5;
+    border: 2px solid black;
 }
 #writeup{
     margin: 2em;
