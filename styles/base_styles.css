@@ -6,10 +6,10 @@ body{
 
 }
 img{
-    margin-left: 8%;
+    margin-left: 25%;
 }
 .navbuttons{
-    margin-left: 25%
+    margin-left: 18%
 }
 
 .page-header{
@@ -43,7 +43,16 @@ img{
     font-size: 1.2em;
     font-family: 'Montserrat', sans-serif, Georgia, 'Times New Roman', Times, serif;
 }
+
+.writeup-body{
+    font-family: 'Montserrat', sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    padding: 3em;
+}
+.writeup-body li{
+    list-style-type: circle;
+}
 .cloud_image{
     margin-top: 3em;
-    margin-left: 1%;
+    margin-left: 19%;
 }
