@@ -36,7 +36,7 @@ img{
 .writeup-box{
     width: 20%;
     overflow: scroll;
-    height: 800px;
+    height: 600px;
     position: fixed;
     right: 10px;
     bottom: 100px;
