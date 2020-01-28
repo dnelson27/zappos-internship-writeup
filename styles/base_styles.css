@@ -3,11 +3,10 @@
 body{
     padding: 0px;
     margin: 0px;
-    zoom: 10%;
 }
 img{
     margin-left: 25%;
-    margin-right: 20%;
+    margin-right: 200px;
     margin-bottom: 50px;
 }
 .navbuttons{
